@@ -1,0 +1,39 @@
+.button {
+  color: #fff;
+  background: var(--background-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  margin: 0;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  line-height: 48px;
+  cursor: pointer;
+  border-radius: 2px;
+  min-width: 180px;
+  text-align: left;
+
+  .icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 16px;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+  &:focus {
+    outline: none;
+  }
+  &.text {
+    background: none;
+    color: var(--blue);
+    min-width: auto;
+  }
+}
+@media (max-width: 480px) {
+  .button{
+    width: 100%;
+  }
+}

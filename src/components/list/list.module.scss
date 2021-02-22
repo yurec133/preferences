@@ -1,0 +1,74 @@
+.list {
+  position: relative;
+  padding: 16px 0 0;
+  display: flex;
+
+  .box {
+    display: flex;
+    padding: 20px 0;
+    margin-right: 15px;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    width: 32px;
+    background: linear-gradient(
+      rgba(36, 202, 151, 0.7) 0%,
+      rgba(191, 243, 227, 0.7) 100%
+    );
+    span {
+      transform: rotate(-90deg);
+    }
+    &.blur {
+      background: linear-gradient(270deg, #ffffff 0%, #f4f4f4 100%);
+    }
+  }
+
+  .ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex: 1;
+    min-width: 1px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .li {
+    background: #fbfbfb;
+    padding: 10px 45px 10px 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+
+    & + li {
+      margin-top: 8px;
+    }
+    .delete {
+      position: absolute;
+      right: 17px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+    .draggable {
+      position: absolute;
+      left: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+    &.shadow {
+      box-shadow: 0 0 0.4rem #666;
+    }
+  }
+}

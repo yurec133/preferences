@@ -1,0 +1,22 @@
+.card {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.03);
+
+  .header {
+    padding: 20px 30px;
+    font-weight: 500;
+    border-radius: 2px 2px 0 0;
+  }
+  .body {
+    padding: 25px;
+    background: #fff;
+
+    & > :last-child {
+      margin-bottom: 0;
+    }
+  }
+  @media (max-width: 960px) {
+    .body {
+      padding: 15px;
+    }
+  }
+}
