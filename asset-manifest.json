@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/preferences/static/css/main.21ed9b7f.chunk.css",
+    "main.js": "/preferences/static/js/main.b656a096.chunk.js",
+    "main.js.map": "/preferences/static/js/main.b656a096.chunk.js.map",
+    "runtime-main.js": "/preferences/static/js/runtime-main.28e6c5a1.js",
+    "runtime-main.js.map": "/preferences/static/js/runtime-main.28e6c5a1.js.map",
+    "static/js/2.5c7a08d1.chunk.js": "/preferences/static/js/2.5c7a08d1.chunk.js",
+    "static/js/2.5c7a08d1.chunk.js.map": "/preferences/static/js/2.5c7a08d1.chunk.js.map",
+    "index.html": "/preferences/index.html",
+    "static/css/main.21ed9b7f.chunk.css.map": "/preferences/static/css/main.21ed9b7f.chunk.css.map",
+    "static/js/2.5c7a08d1.chunk.js.LICENSE.txt": "/preferences/static/js/2.5c7a08d1.chunk.js.LICENSE.txt",
+    "static/media/icon-arrow-r.b7232614.svg": "/preferences/static/media/icon-arrow-r.b7232614.svg",
+    "static/media/icon-draggable.ec67b1a7.svg": "/preferences/static/media/icon-draggable.ec67b1a7.svg",
+    "static/media/icon-minus.9a36908e.svg": "/preferences/static/media/icon-minus.9a36908e.svg",
+    "static/media/icon-zoom.4416dfa3.svg": "/preferences/static/media/icon-zoom.4416dfa3.svg",
+    "static/media/cardBox.module.scss": "/preferences/static/media/paw.6c9d4539.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28e6c5a1.js",
+    "static/js/2.5c7a08d1.chunk.js",
+    "static/css/main.21ed9b7f.chunk.css",
+    "static/js/main.b656a096.chunk.js"
+  ]
+}
