@@ -68,7 +68,7 @@ export const Form = () => {
   };
 
   return (
-    <form noValidate className={styles.form}>
+    <form noValidate className={styles.form} onClick={handleSubmit}>
       <div className="text-large margin-medium-bottom">
         Determine your industry preferences
       </div>
@@ -117,7 +117,7 @@ export const Form = () => {
         )}
       </div>
       <hr className="hr" />
-      <Button onClick={handleSubmit}>Continue</Button>
+      <Button>Continue</Button>
     </form>
   );
 };

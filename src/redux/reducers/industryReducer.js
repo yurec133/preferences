@@ -33,7 +33,6 @@ export const industriesReducer = (state = initialState, action) => {
         isLoading: false
       };
     }
-
     case SET_FAVORITE_INDUSTRIES: {
       const itemArray = Array.isArray(action.payload);
       return {
